@@ -11,9 +11,7 @@
       grid-template-columns: repeat(1, minmax(300px, 1fr));
       grid-template-rows: repeat(6, 300px); } }
   .container__item {
-    position: relative;
-    font: 100px Arial;
-    color: #fff; }
+    position: relative; }
     .container__item:nth-child(1) {
       background-color: red; }
     .container__item:nth-child(1)::after {
@@ -50,6 +48,8 @@
           box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font: 100px Arial;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
